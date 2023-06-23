@@ -1,20 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
-html {
-  /* Font size 10px */
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: gainsboro;
-}
 
 html,
 body,
@@ -101,7 +91,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -145,4 +134,15 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+html {
+  /* Font size 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: gainsboro;
 }

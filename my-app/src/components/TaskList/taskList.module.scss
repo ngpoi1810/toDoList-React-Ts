@@ -1,0 +1,42 @@
+.taskList:nth-child(2) {
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.tasks {
+  .task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    .taskName {
+      flex: 1;
+      font-size: 1.6rem;
+      &.taskNameDone {
+        text-decoration: line-through;
+        color: gray;
+      }
+    }
+  }
+  .taskAction {
+    .taskBtn {
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        background-color: rgb(223, 220, 220);
+      }
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+}
