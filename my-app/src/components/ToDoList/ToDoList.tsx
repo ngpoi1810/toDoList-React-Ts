@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
+import { Todo } from '../../@types/todo.type'
 import TaskInput from '../TaskInput'
 import TaskList from '../TaskList'
 import styles from './toDoList.module.scss'
-import { Todo } from '../../@types/todo.type'
+
 
 interface HandleNewTodos {
   (todos: Todo[]): Todo[]
