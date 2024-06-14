@@ -13,9 +13,9 @@
     border-radius: 25px;
     border: 1px solid #8512cd;
     font-family: 'Lexend', sans-serif;
-    transition: .4s;
+    transition: 0.4s;
     &:focus {
-      transition: .4s;
+      transition: 0.4s;
       transform: scale(1.1);
       outline: #8512cd;
       margin-right: 15px;
@@ -27,9 +27,9 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    transition: .4s;
+    transition: 0.4s;
     &:hover {
-      transition: .4s;
+      transition: 0.4s;
       transform: scale(1.2);
       margin-left: 5px;
     }

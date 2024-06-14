@@ -4,7 +4,6 @@ import TaskInput from '../TaskInput'
 import TaskList from '../TaskList'
 import styles from './toDoList.module.scss'
 
-
 interface HandleNewTodos {
   (todos: Todo[]): Todo[]
 }
